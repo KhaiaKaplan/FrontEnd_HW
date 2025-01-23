@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://img.lovepik.com/background/20211020/large/lovepik-watercolor-background-of-animals-and-plants-image_400062338.jpg);
+    background-size: cover;
+}
+
+.headline , .subheader {
+    color: rgb(43, 21, 208);
+    font-weight: 900;
+}
+#panda{
+    width: 10%;
+    float: right;
+}
+
+.intro{
+    font-family: cursive;
+    color: chartreuse
+}
+
+.main-text{
+    color: black;
+    font-weight: 900;
+}
+.text-more{
+    text-align: center;
+    color: #f411c6;
+    font-size: x-large;
+}
+.idea, .footer-element{
+    background-color: aliceblue;
+}
+
+a{
+    background-color: aqua;
+}
