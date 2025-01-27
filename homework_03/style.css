@@ -1,0 +1,14 @@
+p{
+    width: 550px;
+    border: 2px solid #000000;
+    padding: 1px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+span{
+    width: 500px;
+    border: 2px solid #e80707;
+    padding: 1px;
+    margin: 5px;
+    box-sizing: border-box;
+}
