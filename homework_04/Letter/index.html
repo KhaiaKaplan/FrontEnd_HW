@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>A letter to Santa</h1>
+<br>
+<p>Dear friend, don't be shy and tell Santa who you are and what you want for Christmas.</p>
+
+<form action="">
+    <div>
+        <input type="email" name="Email" id="Email" placeholder="Email">
+        <label for="Email"></label>
+    </div>
+    <div>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <label for="password"></label>
+    </div>
+    <div>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <label for="name"></label>
+    </div>
+    <br>
+    <div>
+        Gender:
+        <div>
+            <input type="radio" name="Gender" id="Gender1" value="Boy">
+            <label for="Gender1">Boy</label>
+        </div>
+        <div>
+            <input type="radio" name="Gender" id="Gender2" value="Girl">
+            <label for="Gender2">Girl</label>
+        </div>
+    </div>
+    <br>
+    <div>
+        <label for="Birth-date">Birth date:</label>
+        <input type="date" name="Birth-date" id="Birth-date">
+    </div>
+    <br>
+    <div>
+        Where are you from:
+        <div>
+            <select name="city" id="city">
+                <option value="New York">New York</option>
+                <option value="London">London</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Shanghai">Shanghai</option>
+            </select>
+            <br><br>
+            <div>
+                Choose the color of your new toy:
+                <div>
+                    <input type="color" name="hat" id="hat">
+                    <label for="hat">Hat</label>
+                </div>
+                <div>
+                    <input type="color" name="suit" id="suit">
+                    <label for="suit">Suit</label>
+                </div>
+                <br>
+                <div>
+                    Where you good this year?
+                    <div>
+                        <input type="radio" name="yes-no" id="yes" value="yes">
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="yes-no" id="no" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+                <br>
+            
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
+
+
+
+    <div>
+        <input type="button" name="send-button" id="send-button" value="Send"
+        onclick="window.location.href= 'http://127.0.0.1:5500/Letter/greetings.html'">
+    </div>
+</body>
+</html>
